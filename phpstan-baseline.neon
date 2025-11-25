@@ -259,12 +259,6 @@ parameters:
 			path: core/class/scenario.class.php
 
 		-
-			message: '#^Instantiated class SolarData\\SolarData not found\.$#'
-			identifier: class.notFound
-			count: 1
-			path: core/class/scenarioExpression.class.php
-
-		-
 			message: '#^Static method update\:\:getLastAvailableVersion\(\) invoked with 1 parameter, 0 required\.$#'
 			identifier: arguments.count
 			count: 1
