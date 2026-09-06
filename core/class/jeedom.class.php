@@ -546,14 +546,13 @@ class jeedom {
 		);
 
 		// Available swap
-		$swapState = false;
-		$swapResult = 'NOK';
+		$swapState = true;
+		$swapResult = __('Aucun swap', __FILE__);
 		if ($systemMemInfo['SwapTotal'] > 0) {
 			$availableSwap = cmd::autoValueArray($systemMemInfo['SwapFree'] * 1024, 1, 'io');
 			$totalSwap = cmd::autoValueArray($systemMemInfo['SwapTotal'] * 1024, 1, 'io');
 			$percentSwap = round(($systemMemInfo['SwapFree'] / $systemMemInfo['SwapTotal']) * 100);
 			$swapResult = $percentSwap . '% (' . $availableSwap[0] . $availableSwap[1] . '/' . $totalSwap[0] . $totalSwap[1] . ')';
-			$swapState = true;
 			if ($percentSwap < 15) {
 				$swapState = false;
 			} else if ($percentSwap < 20) {
@@ -570,9 +569,9 @@ class jeedom {
 
 		// Swappiness
 		$swappiness = trim(shell_exec('sudo cat /proc/sys/vm/swappiness'));
-		$swappinessState = 2;
-		if ($swappiness <= 20 || $systemMemInfo['MemTotal'] >= (1024 * 1024)) {
-			$swappinessState = true;
+		$swappinessState = true;
+		if ($systemMemInfo['SwapTotal'] > 0 && $systemMemInfo['MemTotal'] < (1024 * 1024) && $swappiness > 20) {
+			$swappinessState = 2;
 		}
 		$return[] = array(
 			'name' => __('Swappiness', __FILE__),
