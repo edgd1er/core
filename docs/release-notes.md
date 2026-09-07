@@ -60,6 +60,7 @@
 ## Others
 | Merge date | Title | PR |
 | --- | --- | --- |
+| 2026-09-07 09:45:59 | Remove dead widget plugin template lookup | [#3447](https://github.com/jeedom/core/pull/3447) |
 | 2026-09-04 21:38:24 | Fix hardcoded result property and incorrect options variable | [#3487](https://github.com/jeedom/core/pull/3487) |
 | 2026-08-18 20:15:41 | Make plugin::byId/isInstalled cache handling and full parameter typing explicit | [#3453](https://github.com/jeedom/core/pull/3453) |
 | 2026-08-17 13:33:18 | incorrect translation | [#3463](https://github.com/jeedom/core/pull/3463) |
