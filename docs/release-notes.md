@@ -26,6 +26,8 @@
 ## Fixes
 | Merge date | Title | PR |
 | --- | --- | --- |
+| 2026-09-07 09:56:36 | Fix: Scenario triggers failing when trailing spaces are present | [#3494](https://github.com/jeedom/core/pull/3494) |
+| 2026-09-07 09:56:13 | Fix autoload always loading a plugin's main class file instead of a dedicated one | [#3444](https://github.com/jeedom/core/pull/3444) |
 | 2026-09-07 09:54:16 | Prevent setAxisScales from overriding an active chart zoom | [#3451](https://github.com/jeedom/core/pull/3451) |
 | 2026-09-07 09:50:02 | Fix NaN comparisons in DataTables column sorting | [#3413](https://github.com/jeedom/core/pull/3413) |
 | 2026-09-07 09:43:33 | Fire a change event on ispin spinners and guard against double init | [#3436](https://github.com/jeedom/core/pull/3436) |
