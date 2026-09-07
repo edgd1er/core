@@ -168,7 +168,8 @@ if (init('type') != '') {
 						$_tags = array();
 						$args = arg2array(init('tags'));
 						foreach ($args as $key => $value) {
-							$_tags['#' . trim(trim($key), '#') . '#'] = scenarioExpression::setTags(trim($value), $scenario);
+							$value = trim($value);
+							$_tags['#' . trim(trim($key), '#') . '#'] = scenarioExpression::setTags($value, $scenario);
 						}
 						$scenario->setTags($_tags);
 					} else if (is_array(init('tags'))) {
@@ -1354,10 +1355,21 @@ try {
 		if (is_object($_USER_GLOBAL) && !in_array($_USER_GLOBAL->getProfils(), array('admin'))) {
 			throw new Exception(__('Vous n\'avez pas les droits de faire cette action', __FILE__), -32701);
 		}
+		user::raiseForInvalidLogin($params);
+
 		$user = user::byId($params['id']);
 		if (!is_object($user)) {
+			if (config::byKey('ldap::enable') == '1') {
+				throw new Exception(__('Vous devez désactiver l\'authentification LDAP pour pouvoir ajouter un utilisateur', __FILE__));
+			}
+
 			$user = new user();
 		}
+
+		$keyWhitelist = ['login', 'password', 'hash', 'profils', 'enable', 'options', 'rights'];
+		$params = array_intersect_key($params, array_flip($keyWhitelist));
+		$params = user::cleanPasswordAndHashInput($params);
+
 		utils::a2o($user, $params);
 		$user->save();
 		$jsonrpc->makeSuccess(utils::o2a($user));
