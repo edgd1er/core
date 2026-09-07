@@ -26,6 +26,7 @@
 ## Fixes
 | Merge date | Title | PR |
 | --- | --- | --- |
+| 2026-09-07 09:39:32 | Fix setTags() reference error in jeeApi & plan3d | [#3408](https://github.com/jeedom/core/pull/3408) |
 | 2026-09-07 09:37:06 | add duplicate login check on user update | [#3486](https://github.com/jeedom/core/pull/3486) |
 | 2026-09-07 09:36:05 | Fix icon selector search crashing and not filtering object background images | [#3477](https://github.com/jeedom/core/pull/3477) |
 | 2026-09-07 09:31:27 | Fix login page layout | [#3469](https://github.com/jeedom/core/pull/3469) |
