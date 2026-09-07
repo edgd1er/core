@@ -26,6 +26,7 @@
 ## Fixes
 | Merge date | Title | PR |
 | --- | --- | --- |
+| 2026-09-07 09:50:02 | Fix NaN comparisons in DataTables column sorting | [#3413](https://github.com/jeedom/core/pull/3413) |
 | 2026-09-07 09:43:33 | Fire a change event on ispin spinners and guard against double init | [#3436](https://github.com/jeedom/core/pull/3436) |
 | 2026-09-07 09:41:00 | Remove useless floatval() cast in history::getHistoryFromCalcul | [#3399](https://github.com/jeedom/core/pull/3399) |
 | 2026-09-07 09:39:32 | Fix setTags() reference error in jeeApi & plan3d | [#3408](https://github.com/jeedom/core/pull/3408) |
