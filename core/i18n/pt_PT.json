@@ -1856,6 +1856,10 @@
         "Date de collecte": "Data de coleta",
         "Date de valeur": "Data de validade"
     },
+    "core\/template\/mobile\/cmd.info.string.multiline.html": {
+        "Date de collecte": "Data de coleta",
+        "Date de valeur": "Data de validade"
+    },
     "core\/template\/scenario\/alert.default.html": {
         "Avertissement": "Advertência",
         "Important": "Importante",
