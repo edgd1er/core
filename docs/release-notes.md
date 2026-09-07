@@ -26,6 +26,8 @@
 ## Fixes
 | Merge date | Title | PR |
 | --- | --- | --- |
+| 2026-09-07 09:37:06 | add duplicate login check on user update | [#3486](https://github.com/jeedom/core/pull/3486) |
+| 2026-09-07 09:36:05 | Fix icon selector search crashing and not filtering object background images | [#3477](https://github.com/jeedom/core/pull/3477) |
 | 2026-09-07 09:31:27 | Fix login page layout | [#3469](https://github.com/jeedom/core/pull/3469) |
 | 2026-09-04 16:12:23 | Security fix: prevent password hash and 2FA secret leakage in user data responses | [#3482](https://github.com/jeedom/core/pull/3482) |
 | 2026-09-02 10:52:02 | Fix history charts on views/designs never showing the continuation-to-now dash | [#3458](https://github.com/jeedom/core/pull/3458) |
@@ -71,6 +73,7 @@
 ## Developer
 | Merge date | Title | PR |
 | --- | --- | --- |
+| 2026-09-07 09:36:53 | Drop bullseye from CI and Docker Hub build matrices | [#3492](https://github.com/jeedom/core/pull/3492) |
 | 2026-09-01 10:51:55 | Refactor draft release notes workflow to remove tag date retrieval and improve PR fetching logic | [#3481](https://github.com/jeedom/core/pull/3481) |
 | 2026-09-01 08:55:47 | Merge back to develop hotfix 4.6.1 | [#3480](https://github.com/jeedom/core/pull/3480) |
 | 2026-08-18 08:21:10 | Remove PHP 7.3 workflow from GitHub Actions | [#3465](https://github.com/jeedom/core/pull/3465) |
