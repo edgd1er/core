@@ -26,6 +26,18 @@
 ## Fixes
 | Merge date | Title | PR |
 | --- | --- | --- |
+| 2026-09-07 10:06:59 | Rework health() diagnostics and fix inconsistent checks | [#3491](https://github.com/jeedom/core/pull/3491) |
+| 2026-09-07 09:59:54 | Fix shared cmd::update value mutation breaking live chart updates | [#3452](https://github.com/jeedom/core/pull/3452) |
+| 2026-09-07 09:56:36 | Fix: Scenario triggers failing when trailing spaces are present | [#3494](https://github.com/jeedom/core/pull/3494) |
+| 2026-09-07 09:56:13 | Fix autoload always loading a plugin's main class file instead of a dedicated one | [#3444](https://github.com/jeedom/core/pull/3444) |
+| 2026-09-07 09:54:16 | Prevent setAxisScales from overriding an active chart zoom | [#3451](https://github.com/jeedom/core/pull/3451) |
+| 2026-09-07 09:50:02 | Fix NaN comparisons in DataTables column sorting | [#3413](https://github.com/jeedom/core/pull/3413) |
+| 2026-09-07 09:43:33 | Fire a change event on ispin spinners and guard against double init | [#3436](https://github.com/jeedom/core/pull/3436) |
+| 2026-09-07 09:41:00 | Remove useless floatval() cast in history::getHistoryFromCalcul | [#3399](https://github.com/jeedom/core/pull/3399) |
+| 2026-09-07 09:39:32 | Fix setTags() reference error in jeeApi & plan3d | [#3408](https://github.com/jeedom/core/pull/3408) |
+| 2026-09-07 09:37:06 | add duplicate login check on user update | [#3486](https://github.com/jeedom/core/pull/3486) |
+| 2026-09-07 09:36:05 | Fix icon selector search crashing and not filtering object background images | [#3477](https://github.com/jeedom/core/pull/3477) |
+| 2026-09-07 09:31:27 | Fix login page layout | [#3469](https://github.com/jeedom/core/pull/3469) |
 | 2026-09-04 16:12:23 | Security fix: prevent password hash and 2FA secret leakage in user data responses | [#3482](https://github.com/jeedom/core/pull/3482) |
 | 2026-09-02 10:52:02 | Fix history charts on views/designs never showing the continuation-to-now dash | [#3458](https://github.com/jeedom/core/pull/3458) |
 | 2026-08-31 14:59:18 | Refactor user hash regeneration to avoid double save side effects | [#3470](https://github.com/jeedom/core/pull/3470) |
@@ -54,6 +66,8 @@
 ## Others
 | Merge date | Title | PR |
 | --- | --- | --- |
+| 2026-09-07 09:48:19 | Chore: clean useless filter | [#3450](https://github.com/jeedom/core/pull/3450) |
+| 2026-09-07 09:45:59 | Remove dead widget plugin template lookup | [#3447](https://github.com/jeedom/core/pull/3447) |
 | 2026-09-04 21:38:24 | Fix hardcoded result property and incorrect options variable | [#3487](https://github.com/jeedom/core/pull/3487) |
 | 2026-08-18 20:15:41 | Make plugin::byId/isInstalled cache handling and full parameter typing explicit | [#3453](https://github.com/jeedom/core/pull/3453) |
 | 2026-08-17 13:33:18 | incorrect translation | [#3463](https://github.com/jeedom/core/pull/3463) |
@@ -70,6 +84,7 @@
 ## Developer
 | Merge date | Title | PR |
 | --- | --- | --- |
+| 2026-09-07 09:36:53 | Drop bullseye from CI and Docker Hub build matrices | [#3492](https://github.com/jeedom/core/pull/3492) |
 | 2026-09-01 10:51:55 | Refactor draft release notes workflow to remove tag date retrieval and improve PR fetching logic | [#3481](https://github.com/jeedom/core/pull/3481) |
 | 2026-09-01 08:55:47 | Merge back to develop hotfix 4.6.1 | [#3480](https://github.com/jeedom/core/pull/3480) |
 | 2026-08-18 08:21:10 | Remove PHP 7.3 workflow from GitHub Actions | [#3465](https://github.com/jeedom/core/pull/3465) |
