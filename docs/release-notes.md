@@ -26,6 +26,7 @@
 ## Fixes
 | Merge date | Title | PR |
 | --- | --- | --- |
+| 2026-09-07 10:06:59 | Rework health() diagnostics and fix inconsistent checks | [#3491](https://github.com/jeedom/core/pull/3491) |
 | 2026-09-07 09:59:54 | Fix shared cmd::update value mutation breaking live chart updates | [#3452](https://github.com/jeedom/core/pull/3452) |
 | 2026-09-07 09:56:36 | Fix: Scenario triggers failing when trailing spaces are present | [#3494](https://github.com/jeedom/core/pull/3494) |
 | 2026-09-07 09:56:13 | Fix autoload always loading a plugin's main class file instead of a dedicated one | [#3444](https://github.com/jeedom/core/pull/3444) |
