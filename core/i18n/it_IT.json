@@ -284,6 +284,7 @@
         "Widgets inconnus - Vérifiez l\\'id": "Widget sconosciuti - Verifica l'ID"
     },
     "core\/api\/jeeApi.php": {
+        "API key invalide ou non autorisée dans ce contexte": "Chiave API non valida o non autorizzata in questo contesto",
         "Action non trouvée ou invalide [start,stop,deactivate,activate]": "Azione non trovata o non valida [start,stop,deactivate,activate]",
         "Activation scénario de :": "Attivazione dello scenario di:",
         "Appels de": "Chiamate da",
@@ -294,6 +295,7 @@
         "Cette action nécessite un code d\\'accès": "Questa azione richiede un codice di accesso",
         "Cette action nécessite une confirmation": "Questa azione richiede conferma",
         "Cette demande n\\'est pas autorisée": "Questa richiesta non è consentita",
+        "Code d\\'authentification à deux facteurs invalide ou manquant": "Codice di autenticazione a due fattori non valido o mancante",
         "Commande inconnue ou Token invalide": "Comando sconosciuto o Token non valido",
         "Commande introuvable :": "Ordine non trovato:",
         "Demande API pour ajouter un message": "Richiesta API per aggiungere un messaggio",
@@ -315,6 +317,8 @@
         "Impossible de trouver le message :": "Impossibile trovare il messaggio:",
         "L\\'identifiant ou le mot de passe ne peuvent pas être vide": "Nome utente o password non possono essere vuoti",
         "Le paramètre \"state\" ne peut être vide et doit avoir pour valeur [run,stop,enable,disable]": "Il parametro \"state\" non può essere vuoto e deve avere come valore [run,stop,enable,disable]",
+        "Nom d\\'utilisateur ou mot de passe invalide ou utilisateur désactivé": "Nome utente o password non validi oppure utente disattivato",
+        "Nom d\\'utilisateur ou mot de passe vide": "Nome utente o password vuoti",
         "Objet introuvable :": "Oggetto non trovato:",
         "Requête invalide. Version JSON-RPC invalide :": "Richiesta non valida Versione JSON-RPC non valida:",
         "Scénario exécuté sur appel API": "Scenario eseguito su chiamata API",
@@ -330,6 +334,7 @@
         "Vous n\\'êtes pas autorisé à faire cette action": "Non ti è permesso fare questa azione"
     },
     "core\/api\/marketApi.php": {
+        "Clé API market invalide ou non autorisée": "Chiave API non valida o non autorizzata",
         "Tous les crons sont actuellement désactivés": "Tutti i croni sono attualmente disabilitati",
         "Vous n\\'êtes pas autorisé à effectuer cette action, IP :": "Non sei autorizzato a eseguire questa operazione, IP:"
     },
@@ -1371,9 +1376,15 @@
         "Valider": "Convalidare"
     },
     "core\/php\/authentification.php": {
+        "Clé API utilisateur invalide ou utilisateur désactivé": "Chiave API utente non valida o utente disattivato",
+        "Clé de périphérique enregistrée manquante": "Chiave del dispositivo registrato mancante",
+        "Code d\\'authentification à deux facteurs invalide ou manquant": "Codice di autenticazione a due fattori non valido o mancante",
         "Connexion de l\\'utilisateur :": "Login utente:",
         "Connexion de l\\'utilisateur par REMOTE_USER :": "Accesso utente tramite REMOTE_USER:",
-        "Connexion de l\\'utilisateur par clef :": "Accesso utente tramite chiave:"
+        "Connexion de l\\'utilisateur par clef :": "Accesso utente tramite chiave:",
+        "Nom d\\'utilisateur ou mot de passe invalide ou utilisateur désactivé": "Nome utente o password non validi oppure utente disattivato",
+        "Périphérique non enregistré ou clé invalide": "Dispositivo non registrato o chiave non valida",
+        "Utilisateur local uniquement": "Solo utente locale"
     },
     "core\/php\/downloadFile.php": {
         "401 - Accès non autorisé": "401 - Accesso non autorizzato",

@@ -284,6 +284,7 @@
         "Widgets inconnus - Vérifiez l\\'id": "Unknown widgets - Check the id"
     },
     "core\/api\/jeeApi.php": {
+        "API key invalide ou non autorisée dans ce contexte": "Invalid API key or not authorized in this context",
         "Action non trouvée ou invalide [start,stop,deactivate,activate]": "Action not found or invalid [start, stop, deactivate, activate]",
         "Activation scénario de :": "Scenario activation of:",
         "Appels de": "Calls from",
@@ -294,6 +295,7 @@
         "Cette action nécessite un code d\\'accès": "This action requires an access code",
         "Cette action nécessite une confirmation": "This action requires confirmation",
         "Cette demande n\\'est pas autorisée": "This request is not allowed",
+        "Code d\\'authentification à deux facteurs invalide ou manquant": "Invalid or missing two-factor authentication code",
         "Commande inconnue ou Token invalide": "Unknown command or Invalid token",
         "Commande introuvable :": "Command not found:",
         "Demande API pour ajouter un message": "API request to add a message",
@@ -315,6 +317,8 @@
         "Impossible de trouver le message :": "Unable to find message:",
         "L\\'identifiant ou le mot de passe ne peuvent pas être vide": "Username or password cannot be empty",
         "Le paramètre \"state\" ne peut être vide et doit avoir pour valeur [run,stop,enable,disable]": "The \"state\" parameter cannot be empty and must have the value [run, stop, enable, disable]",
+        "Nom d\\'utilisateur ou mot de passe invalide ou utilisateur désactivé": "Invalid username or password, or user account disabled",
+        "Nom d\\'utilisateur ou mot de passe vide": "Username or password is blank",
         "Objet introuvable :": "Object not found:",
         "Requête invalide. Version JSON-RPC invalide :": "Invalid request. Invalid JSON-RPC version:",
         "Scénario exécuté sur appel API": "Scenario executed on API call",
@@ -330,6 +334,7 @@
         "Vous n\\'êtes pas autorisé à faire cette action": "You are not allowed to do this action"
     },
     "core\/api\/marketApi.php": {
+        "Clé API market invalide ou non autorisée": "Invalid or unauthorized API key",
         "Tous les crons sont actuellement désactivés": "All crons are currently disabled",
         "Vous n\\'êtes pas autorisé à effectuer cette action, IP :": "You are not authorized to perform this action, IP :"
     },
@@ -1371,9 +1376,15 @@
         "Valider": "Save"
     },
     "core\/php\/authentification.php": {
+        "Clé API utilisateur invalide ou utilisateur désactivé": "Invalid user API key or user disabled",
+        "Clé de périphérique enregistrée manquante": "Missing registered device key",
+        "Code d\\'authentification à deux facteurs invalide ou manquant": "Invalid or missing two-factor authentication code",
         "Connexion de l\\'utilisateur :": "User login:",
         "Connexion de l\\'utilisateur par REMOTE_USER :": "User login by REMOTE_USER:",
-        "Connexion de l\\'utilisateur par clef :": "User login by key:"
+        "Connexion de l\\'utilisateur par clef :": "User login by key:",
+        "Nom d\\'utilisateur ou mot de passe invalide ou utilisateur désactivé": "Invalid username or password, or user account disabled",
+        "Périphérique non enregistré ou clé invalide": "Device not registered or invalid key",
+        "Utilisateur local uniquement": "Local user only"
     },
     "core\/php\/downloadFile.php": {
         "401 - Accès non autorisé": "401 - Unauthorized access",
