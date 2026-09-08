@@ -257,10 +257,8 @@
         "Vous devez désactiver l\\'authentification LDAP pour pouvoir ajouter un utilisateur": "You must deactivate LDAP authentication to add a user",
         "Vous devez désactiver l\\'authentification LDAP pour pouvoir supprimer un utilisateur": "You must deactivate LDAP authentication to be able to delete a user",
         "Vous ne pouvez pas changer le profil du compte avec lequel vous êtes connecté": "You cannot change the profile of the account you are logged in with",
-        "Vous ne pouvez pas créer un utilisateur avec ce login: %s": "You cannot create a user with this login: %s",
         "Vous ne pouvez pas désactiver le compte avec lequel vous êtes connecté": "You cannot deactivate the account you are currently logged in with",
-        "Vous ne pouvez pas supprimer le compte avec lequel vous êtes connecté": "You cannot delete the account with which you are connected",
-        "Vous ne pouvez pas utiliser ce login: %s": "You cannot use this login: %s"
+        "Vous ne pouvez pas supprimer le compte avec lequel vous êtes connecté": "You cannot delete the account with which you are connected"
     },
     "core\/ajax\/view.ajax.php": {
         "401 - Accès non autorisé": "401 - Unauthorized access",
@@ -325,6 +323,7 @@
         "Scénario introuvable :": "Scenario not found:",
         "Type incorrect (classe commande inexistante)": "Invalid type (non-existent command class)",
         "Utilisateur non défini": "Undefined user",
+        "Vous devez désactiver l\\'authentification LDAP pour pouvoir ajouter un utilisateur": "You must deactivate LDAP authentication to add a user",
         "Vous n\\'avez pas le droit de faire une action sur ce scénario": "You are not allowed to take action on this scenario",
         "Vous n\\'avez pas les droits de faire cette action": "You do not have the rights to do this action",
         "Vous n\\'avez pas les droits sur ce scénario": "You do not have the rights to this scenario",
@@ -937,7 +936,8 @@
         "Utilisateur": "User",
         "Vous ne pouvez pas changer le profil du dernier administrateur": "You cannot change the profile of the last administrator",
         "Vous ne pouvez pas désactiver le dernier utilisateur": "You cannot log out the last user",
-        "Vous ne pouvez pas supprimer le dernier administrateur": "You cannot delete the last administrator"
+        "Vous ne pouvez pas supprimer le dernier administrateur": "You cannot delete the last administrator",
+        "Vous ne pouvez pas utiliser ce login: %s": "You cannot use this login: %s"
     },
     "core\/class\/view.class.php": {
         "Le nom de la vue ne peut pas être vide": "View name cannot be empty",
