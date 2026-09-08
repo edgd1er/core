@@ -257,10 +257,8 @@
         "Vous devez désactiver l\\'authentification LDAP pour pouvoir ajouter un utilisateur": "Debe desactivar la autenticación LDAP para agregar un usuario",
         "Vous devez désactiver l\\'authentification LDAP pour pouvoir supprimer un utilisateur": "Debe desactivar la autenticación LDAP para poder eliminar un usuario",
         "Vous ne pouvez pas changer le profil du compte avec lequel vous êtes connecté": "No puedes cambiar el perfil de la cuenta con la que has iniciado sesión",
-        "Vous ne pouvez pas créer un utilisateur avec ce login: %s": "No puedes crear un usuario con este nombre de usuario: %s",
         "Vous ne pouvez pas désactiver le compte avec lequel vous êtes connecté": "No puedes desactivar la cuenta con la que has iniciado sesión",
-        "Vous ne pouvez pas supprimer le compte avec lequel vous êtes connecté": "No puede eliminar la cuenta con la que está conectado",
-        "Vous ne pouvez pas utiliser ce login: %s": "No puedes utilizar este nombre de usuario: %s"
+        "Vous ne pouvez pas supprimer le compte avec lequel vous êtes connecté": "No puede eliminar la cuenta con la que está conectado"
     },
     "core\/ajax\/view.ajax.php": {
         "401 - Accès non autorisé": "401 - Acceso no autorizado",
@@ -325,6 +323,7 @@
         "Scénario introuvable :": "Escenario no encontrado:",
         "Type incorrect (classe commande inexistante)": "Tipo no válido (clase de orden inexistente)",
         "Utilisateur non défini": "Usuario no definido",
+        "Vous devez désactiver l\\'authentification LDAP pour pouvoir ajouter un utilisateur": "Debe desactivar la autenticación LDAP para agregar un usuario",
         "Vous n\\'avez pas le droit de faire une action sur ce scénario": "No tiene permiso para tomar medidas en este escenario",
         "Vous n\\'avez pas les droits de faire cette action": "No tienes los derechos para realizar esta acción",
         "Vous n\\'avez pas les droits sur ce scénario": "No tienes los derechos para este escenario",
@@ -937,7 +936,8 @@
         "Utilisateur": "Usuario",
         "Vous ne pouvez pas changer le profil du dernier administrateur": "No puedes cambiar el perfil del último administrador",
         "Vous ne pouvez pas désactiver le dernier utilisateur": "No puedes desactivar el último usuario",
-        "Vous ne pouvez pas supprimer le dernier administrateur": "No puedes eliminar al último administrador"
+        "Vous ne pouvez pas supprimer le dernier administrateur": "No puedes eliminar al último administrador",
+        "Vous ne pouvez pas utiliser ce login: %s": "No puedes utilizar este nombre de usuario: %s"
     },
     "core\/class\/view.class.php": {
         "Le nom de la vue ne peut pas être vide": "El nombre de la vista no puede estar vacío",
