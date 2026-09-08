@@ -3,6 +3,7 @@
 ## New core features
 | Merge date | Title | PR |
 | --- | --- | --- |
+| 2026-09-08 08:58:08 | Feature: add audit log | [#3493](https://github.com/jeedom/core/pull/3493) |
 | 2026-09-04 21:34:21 | Add Debian 13 Trixie compatibility and raises minimum required to Debian 12 | [#3483](https://github.com/jeedom/core/pull/3483) |
 | 2026-09-04 21:28:50 | Update Highstock/Highcharts to 12.6.0 | [#3457](https://github.com/jeedom/core/pull/3457) |
 | 2026-08-27 13:50:54 | Enhance Samba command security with temporary authentication file | [#3475](https://github.com/jeedom/core/pull/3475) |
